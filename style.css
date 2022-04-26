@@ -1,0 +1,253 @@
+body {
+  font-family: arial;
+  color: #323232;
+  background-color: #ebebeb;
+}
+
+#ChatBox {
+  position: absolute;
+  top: 65;
+  display: flex;
+  flex-direction: column-reverse;
+  height: 75%;
+  border: 1px solid #6d6d6d;
+  border-radius: 4px;
+  overflow: auto;
+  right: 10;
+  left: 10;
+  margin: 0 auto;
+  background-color: white;
+  font-size: 25px;
+}
+
+#bottomInfo {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #829cd0;
+  border: 0px;
+  border-radius: 4px;
+  left: 0;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+
+#backButton {
+  position: absolute;
+  top: 9;
+  right: 9;
+  height: 46px;
+  width: 15%;
+  border-width: 3px;
+  border-color: #6d6d6d;
+  border-radius: 4px;
+  font-weight: bold;
+  background-color: #ebebeb;
+  font-size: 20px;
+}
+
+#backalign {
+  align: right;
+}
+
+#mainHeader {
+  top: 9;
+  width: 100%;
+  background-color: #829cd0;
+  border: 0px;
+  border-radius: 4px;
+  font-size: 20px;
+  color: white;
+}
+
+#headerIMG {
+  height: 40px;
+  display: inline;
+  
+}
+
+#headerText {
+  display: inline;
+  color: #ebebeb;
+}
+
+#LogReg {
+  width: 35%;
+  height: 50px;
+  border-width: 2px;
+  border-color: #829cd0;
+  border-radius: 4px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.LogRegClass {
+  text-align: center;
+  font-size: 20px;
+
+}
+
+#logreglist{
+  margin-left: 230px;
+}
+
+#reglist{
+  max-width: 500px;
+  margin-left: 250px;
+  font-size: 17px;
+}
+
+#inputTable {
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+#Subtitle {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#Input {
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: #6d6d6d;
+  background-color: white;
+  font-size: 20px;
+}
+
+#error {
+  text-align: center;
+  color: orangered;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#miniTitle{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#gameTable{
+  margin: 0 auto;
+}
+
+#gameButton{
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: #6d6d6d;
+  background-color: white;
+  min-width: 150px;
+  max-width: 250px;
+  height: 50px;
+  font-size: 25px;
+}
+
+#userTable{
+  margin: 0 auto;
+}
+
+.userButton{
+  min-width: 150px;
+  max-width: 250px;
+  height: 50px;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: #6d6d6d;
+  background-color: white;
+  font-size: 25px;
+}
+
+#type0 {
+  background-color: rgb(181,230,29);
+}
+
+#type1 {
+  background-color: rgb(0,162,232);
+}
+
+#type2 {
+  background-color: rgb(252,41,95);
+}
+
+#type3 {
+  background-color: rgb(112,146,190);
+}
+
+#type4 {
+  background-color: rgb(255,174,201);
+}
+
+#type5 {
+  background-color: rgb(255,127,39);
+}
+
+.names {
+  border-color: #323232;
+  border-width: 1px;
+  border-radius: 3px;
+  color: white;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.chat-time{
+  font-size: 17px;
+  color: #636363
+}
+
+#InputBox{
+  position: fixed;
+  bottom: 30;
+}
+
+#submittext{
+  width: 500px;
+  height: 50px;
+  font-size: 20px;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: #6d6d6d;
+  background-color: white;
+}
+
+.file{
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  background-color: #DDF;
+  background: url('internal/upload.JPG') no-repeat center;
+  text-indent: -9999em;
+  width: 50px;
+  height: 50px;
+  background-size: 50px;
+}
+
+.filesubmit{
+  cursor: pointer;
+  height: 100%;
+  position:absolute;
+  top: 0;
+  right: 0;
+  font-size:50px;
+}
+
+#submitmessage{
+  height: 45px;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: #6d6d6d;
+  background-color: white;
+  font-size: 20px;
+}
+
+.postimage{
+  max-width: 300px;
+  max-height: 300px;
+}
+
+#warning {
+  color: #636363;
+}
